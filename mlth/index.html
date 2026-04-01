@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLTH oficial website</title>
+  <style>
+    @keyframes margin-top-animation {
+      0% { margin-top: -70px; }
+      100% { margin-top: 0px; }
+    }
+    @keyframes radar {
+      0% { color: red; }
+      50% { color: purple; }
+      100% { color: red; }
+    }
+    body { background-color: gray; }
+    .papel {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: -10px 5px 15px;
+      height: -40px;
+      width: -40px;
+    }
+    #title {
+      font-family: Arial;
+      text-align: center;
+      animation: margin-top-animation 1s;
+    }
+    .margin_top {
+      animation: margin-top-animation 1s
+    }
+    .text {
+      text-align: center;
+      font-size: 18px;
+      font-family: Arial;
+    }
+    #copy {
+      font-size: 16px;
+      text-align: center;
+    }
+    .flag {
+      text-align: center;
+      border-radius: 10px;
+    }
+    .botao {
+      background-color: red;
+      color: white;
+      box-shadow: 0px 5px 30px;
+      border-radius: 5px;
+    }
+    #radation {
+      animation: radar 3s infinite;
+      text-align: center;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="papel">
+    <header>
+      <br class="margin_top">
+      <h1 id="title" class="margin_top">Site oficial do MLTH</h1>
+      <div class="flag">
+        <a href="https://i.supaimg.com/a4027c4b-6446-48c5-804a-4a949fc4cc61/008f7bbc-9db0-4966-baa2-4f1f347e8dd9.jpg">
+          <img src="https://i.supaimg.com/a4027c4b-6446-48c5-804a-4a949fc4cc61/008f7bbc-9db0-4966-baa2-4f1f347e8dd9.jpg" width="200" height="auto" class="flag">
+        </a>
+        <p class="text">
+          Bandeira oficial de MLTH (Mini Lang Text Hide)
+        </p>
+      </div>
+    </header>
+    <main>
+      <p id="radation" class="text"><strong>Para qual navegação quer ir?</strong></p>
+      <label>
+        <a href="dev/index.html" class="text">
+          <button class="botao">Código aberto</button>
+        </a>
+      </label>
+    </main>
+    <footer>
+      <br>
+      <p id="copy" class="text">2026 © Copyright • Pudim</p>
+      <br><br><br><br><br>
+    </footer>
+  </div>
+  
+</body>
+</html>
